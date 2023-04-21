@@ -1,0 +1,15 @@
+<script>
+export default {
+  title: "Hello world",
+};
+</script>
+
+<template>
+  <nav class="navbar bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Navbar</a>
+    </div>
+  </nav>
+</template>
+
+<style lang="scss" scoped></style>
