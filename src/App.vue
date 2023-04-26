@@ -1,6 +1,5 @@
 <script>
 import AppHeader from "./components/AppHeader.vue";
-import HomePage from "./pages/HomePage.vue";
 
 
 export default {
@@ -9,7 +8,7 @@ export default {
       title: "BOOLFOLIO",
     };
   },
-  components: { AppHeader,HomePage },
+  components: { AppHeader },
 
   
 };
@@ -18,7 +17,10 @@ export default {
 <template>
   <AppHeader />
   <h1 class="text-center p-2">{{ title }}</h1>
-  <HomePage/>
+  <main class="container">
+    <router-view></router-view>
+  </main>
+  
 </template>
 
 <style lang="scss" scoped></style>
