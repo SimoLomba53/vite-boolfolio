@@ -5,6 +5,8 @@ import ContactPage from "../pages/ContactPage.vue";
 
 const router = createRouter({
     history:createWebHistory(),
+    linkActiveClass:'active',
+    linkExactActiveClass:'active',
     routes:[
         {
             path:'/',
